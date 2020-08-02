@@ -1,3 +1,23 @@
+@font-face{
+  font-family: 'Sinhala Sangam MN';
+  src : url('./fonts/Sinhala\ Sangam\ MN.ttc');
+}
+
+@font-face{
+  font-family: 'Optima';
+  src : url('./fonts/Optima.ttc');
+}
+
+@font-face{
+  font-family: 'Myanmar Sangam MN';
+  src: url('./fonts/Myanmar\ Sangam\ MN.ttc');
+}
+
+a {
+  color: black;
+  text-decoration:none;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +30,144 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+
+
+.sider-head {
+  /* font-family: 'Sinhala Sangam MN'; */
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: right;
+  margin-right: 1rem;
+}
+
+.sider-head-xu{
+  font-size:  1.5rem;
+}
+
+.navz {
+  /* font-family: 'Optima'; */
+  text-align: right;
+  margin-right: 1rem;
+  margin-top: 3rem;
+}
+
+.nav-ul {
+  list-style-type: none;
+  text-align: right;
+  line-height: 2rem;
+}
+
+.nav-project {
+  font-size: .8rem;
+  /* font-weight: bold; */
+  margin-right: 1rem;
+}
+
+.nav-contact {
+  margin-top: 4rem;
+}
+
+.nav-font {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.nav-font-bold {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.main {
+  /* position: absolute; */
+  padding-top: 3rem;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  /* left: 24rem; */
+  overflow-y: auto;
+  background-color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+  .sider-button {
+    text-align: right;
+  }
+
+  .sider {
+    /* position: fixed; */
+    top: 0;
+    /* padding-top: 3rem; */
+    bottom: 0;
+    left: 0;
+    /* width: 20rem; */
+    /* border-right: 1px solid #e4e6e9; */
+    background-color: #fff;
+    overflow: auto;
+  }
+
+  .box {
+    text-align: center;
+  }
+  
+  .img {
+    display: inline-flex;
+    width: 90%;
+    margin-bottom: 1rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .sider-button {
+    display: none;
+  }
+
+  .sider {
+    /* position: fixed; */
+    top: 0;
+    padding-top: 3rem;
+    bottom: 0;
+    left: 0;
+    /* width: 20rem; */
+    /* border-right: 1px solid #e4e6e9; */
+    background-color: #fff;
+    overflow: auto;
+  }
+
+  .box {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    height: 80%;
+  }
+  
+  .img {
+    display: inline-flex;
+    flex-grow: 1;
+    height: 40rem;
+    margin-right: 1rem;
+  }
+}
+
+
+
+.contact {
+  /* font-family: 'Optima'; */
+  margin-left: 8rem;
+  margin-top: 3rem;
+}
+
+.contact-head{
+  color: #4d4d4d;
+  font-size: 1.7rem;
+  font-weight: bold;
+  margin-bottom: 4rem;
+}
+
+.contact-content {
+  font-size: 1rem;
+  margin-bottom: .3rem;
 }
