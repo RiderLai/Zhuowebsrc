@@ -2,7 +2,7 @@
  * @Author: Rider
  * @Date: 2020-06-02 14:56:25
  * @LastEditors: Rider
- * @LastEditTime: 2020-10-08 21:50:51
+ * @LastEditTime: 2020-10-08 22:15:29
  * @Description: file content
  */ 
 import React from "react";
@@ -461,15 +461,16 @@ function App() {
                 </div>
                 }
 
+                <div class="nav-font-bold">
+                  <Link to="/video" onClick={v20Onclick}>
+                    <font class="nav-font-bold" style={{color: v20}}>Video</font>
+                  </Link>
+                </div>
+
                 <div class="nav-contact">
                   <div>
                     <Link to="/contact" onClick={v3Onclick}>
                       <font class="nav-font-bold" style={{color: v3}}>Contact</font>
-                    </Link>
-                  </div>
-                  <div>
-                    <Link to="/video" onClick={v20Onclick}>
-                      <font class="nav-font-bold" style={{color: v20}}>Video</font>
                     </Link>
                   </div>
                   <div style={{fontSize:".8rem"}}>sookiezhuo0910@gmail.com</div>
