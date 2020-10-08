@@ -2,7 +2,7 @@
  * @Author: Rider
  * @Date: 2020-06-09 18:21:06
  * @LastEditors: Rider
- * @LastEditTime: 2020-10-08 21:42:40
+ * @LastEditTime: 2020-10-08 22:24:39
  * @Description: file content
  */ 
 
@@ -22,7 +22,7 @@ class Contact extends React.Component {
         <br />
         <div class="contact-content">instagram: @chengzhuoxu</div>
         <div class="contact-content">weibo:@卓哥z-</div>
-        <div class="contact-content">wechat:417890394-</div>
+        <div class="contact-content">wechat:417890394</div>
       </div>
 		);
   }
