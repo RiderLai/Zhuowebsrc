@@ -2,7 +2,7 @@
  * @Author: Rider
  * @Date: 2020-06-09 18:21:06
  * @LastEditors: Rider
- * @LastEditTime: 2020-06-11 19:48:39
+ * @LastEditTime: 2020-10-08 21:42:40
  * @Description: file content
  */ 
 
@@ -15,13 +15,14 @@ class Contact extends React.Component {
 			<div class="contact">
         <div class="contact-head">About Chengzhuo</div>
         <div class="contact-content">Fashion Photographer {'&'} Designer</div>
-        <div class="contact-content">based in London/Hangzhou/Taiyuan</div>
+        <div class="contact-content">based in London/Shanghai/Hangzhou</div>
         <br />
         <div class="contact-content">email: sookiezhuo0910@gmail.com</div>
         <div class="contact-content">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sookiezhuo0910@qq.com</div>
         <br />
         <div class="contact-content">instagram: @chengzhuoxu</div>
         <div class="contact-content">weibo:@卓哥z-</div>
+        <div class="contact-content">wechat:417890394-</div>
       </div>
 		);
   }
